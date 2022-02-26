@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-dark">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" href="./assets/favicon.ico" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<title>Portfolio</title>
+	</head>
+	<body class="hidden">
+		<div class="overlay"></div>
+		<header class="header">
+			<div class="container">
+				<div class="container-header">
+					<div class="header__logo">
+						<a href="#"
+							><span class="header__logo-icon btn-transition"></span
+						></a>
+					</div>
+					<div class="header__nav">
+						<nav class="nav">
+							<ul class="nav__list">
+								<li class="nav__item">
+									<a
+										class="nav__item-link btn-transition"
+										href="#skills"
+										data-language="skills"
+										>Skills</a
+									>
+								</li>
+								<li class="nav__item">
+									<a
+										class="nav__item-link btn-transition"
+										href="#portfolio"
+										data-language="portfolio"
+										>Portfolio</a
+									>
+								</li>
+								<li class="nav__item">
+									<a
+										class="nav__item-link btn-transition"
+										href="#video"
+										data-language="video"
+										>Video</a
+									>
+								</li>
+								<li class="nav__item">
+									<a
+										class="nav__item-link btn-transition"
+										href="#price"
+										data-language="price"
+										>Price</a
+									>
+								</li>
+								<li class="nav__item">
+									<a
+										class="nav__item-link btn-transition"
+										href="#contacts"
+										data-language="contacts"
+										>Contacts</a
+									>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__last">
+						<div class="header-lang">
+							<div class="header-lang__item">
+								<div class="controls__lang">
+									<div class="control-lang">
+										<input
+											id="en"
+											class="control-lang__radio"
+											type="radio"
+											name="lang-switch"
+										/>
+										<label for="en">en</label>
+									</div>
+									<span>/</span>
+									<div class="control-lang">
+										<input
+											id="ru"
+											class="control-lang__radio"
+											type="radio"
+											name="lang-switch"
+										/>
+										<label for="ru">ru</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button class="controls__theme">
+							<span class="control-theme__btn btn-transition"></span>
+						</button>
+						<div class="header-hamburger">
+							<div class="hamburger" id="hamburger-1">
+								<span class="line"></span>
+								<span class="line"></span>
+								<span class="line"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="container">
+				<section class="hero" id="hero">
+					<div class="hero-content">
+						<div class="hero__title">
+							<h1 class="h1" data-language="hero-title">tattoo parlor</h1>
+						</div>
+						<div class="hero__text" data-language="hero-text">
+							Dare and make your dream come true, create a masterpiece for
+							yourself with a few strokes in cooperation with the professional
+							salon "Flight of the Soul"
+						</div>
+						<div class="hero__btn">
+							<button
+								class="button btn-transition btn"
+								data-language="hire"
+								data-type="animate-btn"
+							>
+								Use the moment
+							</button>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer"></footer>
+		<script src="./js/index.js"></script>
+	</body>
+</html>
