@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-dark">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" href="./assets/favicon.ico" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<title>Portfolio tattoo parlor</title>
+	</head>
+	<body class="hidden">
+		<div class="overlay"></div>
+		<header class="header">
+			<div class="container">
+				<div class="container-header">
+					<div class="header__logo">
+						<a href="#"
+							><span class="header__logo-icon btn-transition"></span
+						></a>
+					</div>
+					<div class="header__nav">
+						<nav class="nav">
+							<ul class="nav__list">
+								<li class="nav__item">
+									<a
+										class="nav__item-link btn-transition"
+										href="#skills"
+										data-language="skills"
+										>Skills</a
+									>
+								</li>
+								<li class="nav__item">
+									<a
+										class="nav__item-link btn-transition"
+										href="#portfolio"
+										data-language="portfolio"
+										>Portfolio</a
+									>
+								</li>
+								<li class="nav__item">
+									<a
+										class="nav__item-link btn-transition"
+										href="#video"
+										data-language="video"
+										>Video</a
+									>
+								</li>
+								<li class="nav__item">
+									<a
+										class="nav__item-link btn-transition"
+										href="#price"
+										data-language="price"
+										>Price</a
+									>
+								</li>
+								<li class="nav__item">
+									<a
+										class="nav__item-link btn-transition"
+										href="#contacts"
+										data-language="contacts"
+										>Contacts</a
+									>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__last">
+						<div class="header-lang">
+							<div class="header-lang__item">
+								<div class="controls__lang">
+									<div class="control-lang">
+										<input
+											id="en"
+											class="control-lang__radio"
+											type="radio"
+											name="lang-switch"
+										/>
+										<label for="en">en</label>
+									</div>
+									<span>/</span>
+									<div class="control-lang">
+										<input
+											id="ru"
+											class="control-lang__radio"
+											type="radio"
+											name="lang-switch"
+										/>
+										<label for="ru">ru</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button class="controls__theme">
+							<span class="control-theme__btn btn-transition"></span>
+						</button>
+						<div class="header-hamburger">
+							<div class="hamburger" id="hamburger-1">
+								<span class="line"></span>
+								<span class="line"></span>
+								<span class="line"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="container">
+				<section class="hero" id="hero">
+					<div class="hero-content">
+						<div class="hero__title">
+							<h1 class="h1" data-language="hero-title">tattoo parlor</h1>
+						</div>
+						<div class="hero__text" data-language="hero-text">
+							Dare and make your dream come true, create a masterpiece for
+							yourself with a few strokes in cooperation with the professional
+							salon "Flight of the Soul"
+						</div>
+						<div class="hero__btn">
+							<button
+								class="button btn-transition btn"
+								data-language="hire"
+								data-type="animate-btn"
+							>
+								Use the moment
+							</button>
+						</div>
+					</div>
+				</section>
+				<section class="skills" id="skills">
+					<div class="title__content">
+						<div class="title__line"></div>
+						<h2 class="section-title h2" data-language="skills">Skills</h2>
+					</div>
+					<div class="skills-items">
+						<div class="skill-item">
+							<h3 class="skill-item-title" data-language="skill-title-1">
+								Tattoos
+							</h3>
+							<p class="skill-item-desc" data-language="skill-text-1">
+								High-quality tattoos for every taste, it all depends on the
+								flight of your thoughts and dreams (we do not make roses in the
+								form of cabbage).
+							</p>
+						</div>
+						<div class="skill-item">
+							<h3 class="skill-item-title" data-language="skill-title-2">
+								Eyebrow tattoo
+							</h3>
+							<p class="skill-item-desc" data-language="skill-text-2">
+								We will help to give the eyebrows the desired shape and color,
+								make their contours clearer, Mr. Brezhnev himself will envy your
+								eyebrows.
+							</p>
+						</div>
+						<div class="skill-item">
+							<h3 class="skill-item-title" data-language="skill-title-3">
+								Piercing
+							</h3>
+							<p class="skill-item-desc" data-language="skill-text-3">
+								Add jewelry to your body, highlighting its beauty and
+								personality, so that any crow will be seduced by the brilliance
+								of your jewelry.
+							</p>
+						</div>
+						<div class="skill-item">
+							<h3 class="skill-item-title" data-language="skill-title-4">
+								Tattoo removal
+							</h3>
+							<p class="skill-item-desc" data-language="skill-text-4">
+								Our professionals will help you remove any old tattoo, if your
+								rose has turned into a cabbage, our professionals will help you
+								out.
+							</p>
+						</div>
+					</div>
+				</section>
+				<section class="portfolio" id="portfolio">
+					<div class="title__content">
+						<div class="title__line"></div>
+						<h2 class="section-title h2" data-language="portfolio">
+							Portfolio
+						</h2>
+					</div>
+					<ul class="portfolio__btn">
+						<li class="portfolio__btn-item">
+							<button
+								class="button btn-transition portfolio-btn active"
+								onclick="replaceImages(this); return true;"
+								data-season="tattoos"
+								data-language="tattoos"
+							>
+								Tattoos
+							</button>
+						</li>
+						<li class="portfolio__btn-item">
+							<button
+								class="button btn-transition portfolio-btn"
+								onclick="replaceImages(this); return true;"
+								data-season="eyebrow"
+								data-language="eyebrow"
+							>
+								Eyebrow tattoo
+							</button>
+						</li>
+						<li class="portfolio__btn-item">
+							<button
+								class="button btn-transition portfolio-btn"
+								onclick="replaceImages(this); return true;"
+								data-season="piercing"
+								data-language="piercing"
+							>
+								Piercing
+							</button>
+						</li>
+						<li class="portfolio__btn-item">
+							<button
+								class="button btn-transition portfolio-btn"
+								onclick="replaceImages(this); return true;"
+								data-season="sketches"
+								data-language="sketches"
+							>
+								Sketches
+							</button>
+						</li>
+					</ul>
+					<div class="portfolio__images">
+						<div class="portfolio__images-item">
+							<img
+								class="portfolio-image"
+								id="portfolio-image-1"
+								src="./assets/img/tattoo/1.jpg"
+								alt="portfolio image"
+							/>
+						</div>
+						<div class="portfolio__images-item">
+							<img
+								class="portfolio-image"
+								id="portfolio-image-2"
+								src="./assets/img/tattoo/2.jpg"
+								alt="portfolio image"
+							/>
+						</div>
+						<div class="portfolio__images-item">
+							<img
+								class="portfolio-image"
+								id="portfolio-image-3"
+								src="./assets/img/tattoo/3.jpg"
+								alt="portfolio image"
+							/>
+						</div>
+						<div class="portfolio__images-item">
+							<img
+								class="portfolio-image"
+								id="portfolio-image-4"
+								src="./assets/img/tattoo/4.jpg"
+								alt="portfolio image"
+							/>
+						</div>
+						<div class="portfolio__images-item">
+							<img
+								class="portfolio-image"
+								id="portfolio-image-5"
+								src="./assets/img/tattoo/5.jpg"
+								alt="portfolio image"
+							/>
+						</div>
+						<div class="portfolio__images-item">
+							<img
+								class="portfolio-image"
+								id="portfolio-image-6"
+								src="./assets/img/tattoo/6.jpg"
+								alt="portfolio image"
+							/>
+						</div>
+					</div>
+				</section>
+				<section class="video" id="video">
+					<div class="title__content">
+						<div class="title__line"></div>
+						<h2 class="section-title h2" data-language="video">Video</h2>
+					</div>
+					<div class="video__content">
+						<div class="video__play btn-transition"></div>
+						<img src="./assets/video/video-player.jpg" alt="video-player" />
+					</div>
+				</section>
+				<section class="price" id="price">
+					<div class="title__content">
+						<div class="title__line"></div>
+						<h2 class="section-title h2" data-language="price">Price</h2>
+					</div>
+					<div class="price__list">
+						<div class="price__item">
+							<ul class="price__desc">
+								<li><span>Нанесение татуировки </span><span>от 50 $</span></li>
+								<li>
+									<span>Исправление татуировки </span><span>от 80 $</span>
+								</li>
+								<li>
+									<span>Реставрация татуировок </span><span>от 100 $</span>
+								</li>
+								<li><span>Татуаж </span><span>от 120 $</span></li>
+							</ul>
+						</div>
+						<div class="price__item">
+							<ul class="price__desc">
+								<li><span>Классический пирсинг</span><span>от 25 $</span></li>
+								<li><span>Пирсинг ушей</span><span>от 35 $</span></li>
+								<li><span>Пирсинг носа</span><span>от 40 $</span></li>
+								<li><span>Пирсинг брови</span><span>от 30 $</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="price__button">
+						<button
+							class="button price__btn_bye btn-transition btn"
+							data-language="order"
+							data-type="animate-btn"
+						>
+							Order shooting
+						</button>
+					</div>
+				</section>
+			</div>
+			<section class="contacts" id="contacts">
+				<div class="container contact-me p0">
+					<div class="contact__content">
+						<h2
+							class="contact__title section-title h2"
+							data-language="contact-me"
+						>
+							Contact me
+						</h2>
+						<form class="contact__form">
+							<input
+								class="contact__form-item"
+								type="email"
+								placeholder="E-mail"
+								data-language="mail-placeholder"
+							/>
+							<input
+								class="contact__form-item"
+								type="tel"
+								placeholder="Phone"
+								data-language="tel-placeholder"
+							/>
+							<textarea
+								class="contact__form-item"
+								name="message"
+								id="message"
+								placeholder="Message"
+								data-language="message-placeholder"
+							></textarea>
+							<button
+								class="button contact__submit btn-transition btn"
+								data-language="send-message"
+								data-type="animate-btn"
+							>
+								Send message
+							</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__item">
+					<span>©</span>
+					<span>2022</span>
+					<a class="btn-transition" href="https://github.com/Alexsail8"
+						>github</a
+					>
+				</div>
+				<div class="footer__item">
+					<ul class="footer__list-icons">
+						<li>
+							<a href="https://www.instagram.com/"
+								><span class="instagram btn-transition"></span
+							></a>
+						</li>
+						<li>
+							<a href="https://www.facebook.com/"
+								><span class="facebook btn-transition"></span
+							></a>
+						</li>
+						<li>
+							<a href="https://twitter.com/"
+								><span class="twitter btn-transition"></span
+							></a>
+						</li>
+						<li>
+							<a href="https://www.pinterest.ru/"
+								><span class="pinterest btn-transition"></span
+							></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<script src="./js/index.js"></script>
+	</body>
+</html>
