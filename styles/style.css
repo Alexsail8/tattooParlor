@@ -1042,15 +1042,13 @@ textarea.contact__form-item {
     z-index: 9;
   }
   .hero__title h1 {
-    font-size: 32px;
+    font-size: 48px;
     line-height: 64px;
     padding-bottom: 10px;
-    font-family:'Merriweather-Regular';
-    font-weight: 400;
   }
   .hero-content {
     width: 59%;
-    padding: 167px 0 152px 47px;
+    padding: 167px 0 152px;
 
   }
   .hero__text {
@@ -1156,6 +1154,9 @@ textarea.contact__form-item {
   .hero-content {
     width: 75%;
     padding: 167px 0 152px;
+  }
+  .hero__title h1 {
+    font-size: 48px;
   }
   .nav__list {
     font-size: 28px;
