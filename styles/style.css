@@ -456,32 +456,25 @@ ul li {
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
-  padding-top: 99px;
+  padding-top: 90px;
+  padding-bottom: 25px;
   text-align: center;  
   -webkit-box-flex: 0;
   width: 320px;
+  background-size: 62px 50px;
 }
 .skill-item:nth-child(1) {
   background-image: url('../assets/svg/tattoo_icon.svg');
-  background-size: 62px 50px;
 }
-
 .skill-item:nth-child(2) {
   background-image: url('../assets/svg/eyebrow_icon.svg');
-  background-size: 62px 50px;
 }
 .skill-item:nth-child(3) {
   background-image: url('../assets/svg/piercing_icon.svg');
-  background-size: 62px 50px;
 }
 .skill-item:nth-child(4) {
   background-image: url('../assets/svg/tattoo-unset_icon.svg');
-  background-size: 62px 50px;
 }
-/* .skill-item-icon img {
-  margin: 0 auto;
-  margin-bottom: 25px;
-} */
 .skill-item-title {
   padding: 0 0 20px;
   text-align: center;
@@ -924,14 +917,9 @@ textarea.contact__form-item {
     width: 320px;
     padding-top: 135px;
   }
-    .skill-item:nth-child(1),
-    .skill-item:nth-child(2), 
-    .skill-item:nth-child(3) {
+    .skill-item {
       background-size: 61px 160px;
     }
-    .skill-item:nth-child(4) {
-      background-size: 34px 160px;
-  }
 }
 
 @media (max-width: 1113px) {
@@ -1077,18 +1065,7 @@ textarea.contact__form-item {
   .skill-item {
     width: 300px;
     padding-top: 135px;
-  }
-  .skill-item:nth-child(1),
-  .skill-item:nth-child(2) {
     background-size: 62px 160px;
-  }
-  .skill-item:nth-child(3) {
-    padding-top: 153px;
-    background-size: 62px 201px;
-  }
-  .skill-item:nth-child(4) {
-    padding-top: 153px;
-    background-size: 34px 201px;
   }
   .title__content {
     margin-top: 80px;
