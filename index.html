@@ -281,8 +281,38 @@
 						<h2 class="section-title h2" data-language="video">Video</h2>
 					</div>
 					<div class="video__content">
-						<div class="video__play btn-transition"></div>
-						<img src="./assets/video/video_poster.jpg" alt="video poster" />
+						<div
+							class="video__play video-play__poster-btn btn-transition video_btn-show"
+						></div>
+						<video
+							class="video-player"
+							poster="./assets/video/video_poster.jpg"
+						>
+							<source src="./assets/video/video.mp4" type="video/mp4" />
+						</video>
+						<div class="video-player__controls">
+							<div class="timeline">
+								<div class="progress" style="width: 0.3%"></div>
+							</div>
+							<div class="button__controls">
+								<div class="play-container">
+									<div class="buttons__play-pause play"></div>
+								</div>
+								<div class="volume-container">
+									<div class="volume-button">
+										<div class="volume icono-volumeMedium"></div>
+									</div>
+									<div class="volume-slider">
+										<div class="volume-percentage"></div>
+									</div>
+								</div>
+								<div class="time">
+									<div class="current">0:00</div>
+									<div class="divider">/</div>
+									<div class="length"></div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</section>
 				<section class="price" id="price">
@@ -445,5 +475,6 @@
 		</footer>
 		<script type="module" src="./js/index.js"></script>
 		<script src="./js/portfolio.js"></script>
+		<script src="./js/video.js"></script>
 	</body>
 </html>
