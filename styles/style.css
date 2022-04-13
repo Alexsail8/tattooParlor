@@ -720,7 +720,7 @@ ul li {
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
-  padding: 0 20px;
+  padding: 0;
   width: -webkit-fill-available;
 }
 
@@ -1282,6 +1282,18 @@ textarea.contact__form-item {
   .price__item {
     max-width: 420px;
   }
+  .buttons__play-pause {
+    margin-right: 15px;
+  }
+}
+@media (max-width: 359px) {
+.video-player__controls .button__controls .volume-container .volume-slider {
+  width: 85px;
+  height: 10px;
+}
+.video-player__controls .button__controls .time {
+  font-size: 16px;
+}
 }
 @media (max-width: 320px) {
     .button {
