@@ -889,7 +889,7 @@ textarea.contact__form-item {
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
-  padding: 25px 5px;
+  padding: 25px 15px;
 }
 .footer__item > a.btn-transition:hover {
   color: var(--accent-color);
@@ -1214,7 +1214,7 @@ textarea.contact__form-item {
     line-height: 22px;
   }
   .portfolio {
-    padding-top: 62px;
+    padding-top: 0;
   }
   .portfolio__btn {
     padding-top: 83px;
