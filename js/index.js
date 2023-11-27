@@ -1,7 +1,7 @@
 import i18Obj from './translate.js'
 
 const data = {
-	lang: 'en',
+	lang: 'ru',
 	portfolio: 'winter',
 	theme: 'dark',
 }
